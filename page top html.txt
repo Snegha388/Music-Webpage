@@ -1,0 +1,61 @@
+<img src="dippam.jpg" height="80" width="80"> Dippam Dappam
+     	Anirudh,Antony<br>
+        
+        <img src="arabic.jpg" height="80" width="80"> Arabic Kuthu - Halamithi Habibo
+     	Anirudh,Jonita<br>
+        
+        <img src="bae.jpg" height="80" width="80"> Bae
+     	Anirudh,Adhithya RK<br>
+        
+        <img src="pizhai.jpg" height="80" width="80"> Naan Pizhai
+     	Anirudh,Ravi G,Shashaa Tirupati<br>
+
+     	Jalabulajangu
+     	Anirudh<br>
+
+     	Kanave Kanave
+     	Anirudh<br>
+
+     	Idhazin Oram
+     	Anirudh,Ajesh<br>
+
+     	Kannazhaga - The Kiss of Love
+     	Dhanush,Shruti<br>
+
+     	Udhungada Sangu
+     	Anirudh<br>
+
+     	Senjitaley
+     	Anirudh<br>
+
+     	Oh Penne
+     	Anirudh,Vishal Dadlani<br>
+
+     	Vaathi Coming
+     	Anirudh,Gana Balachandar<br>
+
+     	Enakenna Yaarum Illaye
+     	Anirudh<br>
+
+     	Po nee po - The Pain of Love
+     	Anirudh,Mohit Chauhan<br>
+
+     	Sirikkadhey
+     	Anirudh,Arjun,Srinidhi<br>
+
+     	Why This Kolaveri Di
+     	Anirudh,Dhanush<br>
+
+     	Aaluma Doluma
+     	Anirudh,Badshah<br>
+
+     	Un Vizhigalil
+     	Anirudh,Shruti Haasan<br>
+
+     	Selfie Pulla
+     	Vijay,Sunidhi Chauhan<br>
+
+     	Yaanji
+     	Anirudh,Shakthisree Gopalan<br>
+
+     </pre> 

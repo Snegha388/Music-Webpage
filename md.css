@@ -1,0 +1,2776 @@
+ul
+{
+	list-style-type:none;
+}
+
+body
+{
+	background-image:url(gray.jpg);
+	background-size:cover;
+	background-repeat:repeat;
+	background-position:center;
+	overflow:auto;
+}
+
+.style
+{
+	text-align:center;
+	position:sticky;
+
+}
+
+.style ul 
+{
+	display:inline-flex;
+	list-style-type:none;
+
+}
+
+.style ul li 
+{
+	width:71px;
+	margin:25px;
+	padding:10px;
+}
+
+#hea
+{
+	color:white;
+	float:left;
+	margin-left:-300px;
+}
+
+.style ul li a 
+{
+	display:block;
+	padding:6px;
+	text-decoration:none;
+	color:white;
+	position:relative;
+	top:0;
+	overflow:hidden;
+}
+
+.style li a::before
+{
+	content:'';
+	width:70px;
+	position:absolute;
+	border-bottom:6px solid white;
+	bottom:0;
+	right:350px;
+	transition:1s all;
+
+}
+
+.style li a:hover::before
+
+{
+	right:0px;
+}
+.ani2
+{
+	color:white;
+	padding:50px;
+	height:30px;
+	width:70px;
+	font-size:50px;
+	position:absolute;
+	/*animation:mymove 1s 2;
+	animation-delay:1s;
+	left:30px;*/
+}
+
+@keyframes mymove
+{
+	from{left:50px;}
+	to{left:200px;}
+}
+
+#ani
+{
+	float:right;
+	width:350px;
+	height:400px;
+	padding:70px;
+}
+#search
+{
+	padding:30px;
+	float:right;
+
+}
+#icon
+{
+	margin-left:-650px;
+	margin-top:25px;
+}
+#ani3
+{
+	font-size:30px;
+/*	padding:250px;*/
+	left:100px;
+	text-align:justify;
+	width:900px;
+	height:100px;
+	/*border:2px solid red;
+	border-radius:5px;*/
+	margin:300px;
+}
+
+#topsongs
+{
+  margin-top:100px;
+  padding-left:50px;
+  font-family:Comic Sans MS;   
+}
+#back1 
+{
+	background-image:url(darkblue.jpg);
+	background-repeat:repeat;
+	background-size:contain;
+	margin-top:-10px;
+	margin-left:-10px;
+	margin-right:-8px;
+	margin-bottom:-20px;
+}
+
+
+.topsongs1
+{
+	width: 340px;
+	height: 130px;
+	border: 2px #FFD700;
+	margin-left: 200px;
+	margin-top: 10px;
+}
+
+.topsongs1 b 
+{
+	font-size:25px;
+}
+
+.pathala p
+{
+  font-weight: bold;
+}
+
+.pathala
+{
+	margin-left: 150px;
+	margin-top: 30px;
+	line-height: 23px;
+}
+
+#topicon1{
+	margin-top:-40px;
+	margin-left:350px;
+}
+#topsongimg1
+{
+	background-image: url(pathala.jpg);
+	background-position: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+    height: 120px;
+	width: 120px;
+}
+
+.topsongs2
+{
+	width: 340px;
+	height: 130px;
+	border: 2px #FFD700;
+	margin-left: 700px;
+	margin-top: 200px;
+}
+
+.topsongs2 b 
+{
+	font-size:25px;
+}
+
+.dippam p
+{
+  font-weight: bold;
+}
+
+.dippam
+{
+	margin-left: 150px;
+	margin-top: -90px;
+	line-height: 23px;
+}
+
+#topicon2{
+	margin-top:-40px;
+	margin-left:350px;
+}
+
+#topsongimg2
+{
+	background-image: url(dippam.jpg);
+	background-position: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+    height: 120px;
+	width: 120px;
+	margin-top:-200px;
+}
+
+.topsongs3
+{
+	width: 340px;
+	height: 130px;
+	border: 2px #FFD700;
+	margin-left: 200px;
+	margin-top: 10px;
+}
+
+.topsongs3 b 
+{
+	font-size:25px;
+}
+
+.arabic p
+{
+  font-weight: bold;
+}
+
+.arabic
+{
+	margin-left: 150px;
+	margin-top: -120px;
+	line-height: 23px;
+}
+
+#topicon3{
+	margin-top:-40px;
+	margin-left:350px;
+}
+
+#topsongimg3
+{
+	background-image: url(arabic.jpg);
+	background-position: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+    height: 120px;
+	width: 120px;
+}
+
+.topsongs4
+{
+	width: 340px;
+	height: 130px;
+	border: 2px #FFD700;
+	margin-left: 700px;
+	margin-top: 10px;
+}
+
+.topsongs4 b 
+{
+	font-size:25px;
+}
+
+.bae p
+{
+  font-weight: bold;
+}
+
+.bae
+{
+	margin-left: 150px;
+	margin-top: -90px;
+	line-height: 23px;
+}
+
+#topicon4{
+	margin-top:-40px;
+	margin-left:350px;
+}
+#topsongimg4
+{
+	background-image: url(bae.jpg);
+	background-position: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+    height: 120px;
+	width: 120px;
+}
+
+.topsongs5
+{
+	width: 340px;
+	height: 130px;
+	border: 2px #FFD700;
+	margin-left: 200px;
+	margin-top: 300px;
+}
+
+.topsongs5 b 
+{
+	font-size:25px;
+}
+
+.pizhai p
+{
+  font-weight: bold;
+}
+
+.pizhai
+{
+	margin-left: 150px;
+	margin-top: -110px;
+	line-height: 23px;
+}
+
+#topicon5{
+	margin-top:-40px;
+	margin-left:350px;
+}
+
+#topsongimg5
+{
+	background-image: url(pizhai.jpg);
+	background-position: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+    height: 120px;
+	width: 120px;
+	margin-top:-300px;
+}
+
+.topsongs6
+{
+	width: 340px;
+	height: 130px;
+	border: 2px #FFD700;
+	margin-left: 700px;
+	margin-top: 10px;
+}
+
+.topsongs6 b 
+{
+	font-size:25px;
+}
+
+.jalabula p
+{
+  font-weight: bold;
+}
+
+.jalabula
+{
+	margin-left: 150px;
+	margin-top: -90px;
+	line-height: 23px;
+}
+
+#topicon6{
+	margin-top:-40px;
+	margin-left:350px;
+}
+
+#topsongimg6
+{
+	background-image: url(jalabula.jpg);
+	background-position: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+    height: 120px;
+	width: 120px;
+}
+
+.topsongs7
+{
+	width: 340px;
+	height: 130px;
+	border: 2px #FFD700;
+	margin-left: 200px;
+	margin-top:10px;
+}
+
+.topsongs7 b 
+{
+	font-size:25px;
+}
+
+.kanave p
+{
+  font-weight: bold;
+}
+
+.kanave
+{
+	margin-left: 150px;
+	margin-top: -90px;
+	line-height: 23px;
+}
+
+#topicon7{
+	margin-top:-40px;
+	margin-left:350px;
+}
+
+#topsongimg7
+{
+	background-image: url(kanave.jpg);
+	background-position: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+    height: 120px;
+	width: 120px;
+}
+
+.topsongs8
+{
+	width: 340px;
+	height: 130px;
+	border: 2px #FFD700;
+	margin-left: 700px;
+	margin-top: 470px;
+}
+
+.topsongs8 b 
+{
+	font-size:25px;
+}
+
+.idhazhin p
+{
+  font-weight: bold;
+}
+
+.idhazhin
+{
+	margin-left: 150px;
+	margin-top: -90px;
+	line-height: 23px;
+}
+
+#topicon8{
+	margin-top:-40px;
+	margin-left:350px;
+}
+#topsongimg8
+{
+	background-image: url(idhazhin.jpg);
+	background-position: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+    height: 120px;
+	width: 120px;
+	margin-top:-450px;
+}
+.topsongs9
+{
+	width: 340px;
+	height: 130px;
+	border: 2px #FFD700;
+	margin-left: 200px;
+	margin-top: 20px;
+}
+
+.topsongs9 b 
+{
+	font-size:25px;
+}
+
+.ohpenne p
+{
+  font-weight: bold;
+}
+
+.ohpenne
+{
+	margin-left: 150px;
+	margin-top: -90px;
+	line-height: 23px;
+}
+
+#topicon9{
+	margin-top:-40px;
+	margin-left:350px;
+}
+#topsongimg9
+{
+	background-image: url(ohpenne.jpg);
+	background-position: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+    height: 120px;
+	width: 120px;
+}
+
+.topsongs10
+{
+	width: 340px;
+	height: 130px;
+	border: 2px #FFD700;
+	margin-left: 700px;
+	margin-top: 10px;
+}
+
+.topsongs10 b 
+{
+	font-size:25px;
+}
+
+.selfie p
+{
+  font-weight: bold;
+}
+
+.selfie
+{
+	margin-left: 150px;
+	margin-top: -90px;
+	line-height: 23px;
+}
+
+#topicon10{
+	margin-top:-40px;
+	margin-left:350px;
+}
+
+#topsongimg10
+{
+	background-image: url(selfie.jpg);
+	background-position: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+    height: 120px;
+	width: 120px;
+}
+
+
+.topsongs11
+{
+	width: 340px;
+	height: 130px;
+	border: 2px #FFD700;
+	margin-left: 200px;
+	margin-top: 10px;
+}
+
+.topsongs11 b 
+{
+	font-size:25px;
+}
+
+.thanga p
+{
+  font-weight: bold;
+}
+
+.thanga
+{
+	margin-left: 150px;
+	margin-top: -90px;
+	line-height: 23px;
+}
+
+#topicon11{
+	margin-top:-40px;
+	margin-left:350px;
+}
+
+#topsongimg11
+{
+	background-image: url(thangamey.jpg);
+	background-position: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+    height: 120px;
+	width: 120px;
+}
+
+.topsongs12
+{
+	width: 340px;
+	height: 130px;
+	border: 2px #FFD700;
+	margin-left: 700px;
+	margin-top: 10px;
+}
+
+.topsongs12 b 
+{
+	font-size:25px;
+}
+
+.kankattudhe p
+{
+  font-weight: bold;
+}
+
+.kankattudhe
+{
+	margin-left: 150px;
+	margin-top: -120px;
+	line-height: 23px;
+}
+
+#topicon12{
+	margin-top:-40px;
+	margin-left:350px;
+}
+
+#topsongimg12
+{
+	background-image: url(kakkisattai.jpg);
+	background-position: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+    height: 120px;
+	width: 120px;
+}
+
+.topsongs13
+{
+	width: 340px;
+	height: 130px;
+	border: 2px #FFD700;
+	margin-left: 200px;
+	margin-top: 260px;
+}
+
+.topsongs13 b 
+{
+	font-size:25px;
+}
+
+.maranamass p
+{
+  font-weight: bold;
+}
+
+.maranamass
+{
+	margin-left: 150px;
+	margin-top: -90px;
+	line-height: 23px;
+}
+
+#topicon13{
+	margin-top:-40px;
+	margin-left:350px;
+}
+
+#topsongimg13
+{
+	background-image: url(maranamass.jpg);
+	background-position: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+    height: 120px;
+	width: 120px;
+	margin-top:-250px;
+}
+
+.topsongs14
+{
+	width: 340px;
+	height: 130px;
+	border: 2px #FFD700;
+	margin-left: 700px;
+	margin-top: 10px;
+}
+
+.topsongs14 b 
+{
+	font-size:25px;
+}
+
+.anthakanna p
+{
+  font-weight: bold;
+}
+
+.anthakanna
+{
+	margin-left: 150px;
+	margin-top: -100px;
+	line-height: 23px;
+}
+
+#topicon14{
+	margin-top:-40px;
+	margin-left:350px;
+}
+
+#topsongimg14
+{
+	background-image: url(anthakanna.jpg);
+	background-position: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+    height: 120px;
+	width: 120px;
+}
+
+.topsongs15
+{
+	width: 340px;
+	height: 130px;
+	border: 2px #FFD700;
+	margin-left: 200px;
+	margin-top: 10px;
+}
+
+.topsongs15 b 
+{
+	font-size:25px;
+}
+
+.iraiva p
+{
+  font-weight: bold;
+}
+
+.iraiva
+{
+	margin-left: 150px;
+	margin-top: -100px;
+	line-height: 23px;
+}
+
+#topicon15{
+	margin-top:-40px;
+	margin-left:350px;
+}
+
+#topsongimg15
+{
+	background-image: url(iraiva.jpg);
+	background-position: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+    height: 120px;
+	width: 120px;
+}
+
+.topsongs16
+{
+	width: 340px;
+	height: 130px;
+	border: 2px #FFD700;
+	margin-left: 700px;
+	margin-top: 10px;
+}
+
+.topsongs16 b 
+{
+	font-size:25px;
+}
+
+.unvizhigalil p
+{
+  font-weight: bold;
+}
+
+.unvizhigalil
+{
+	margin-left: 150px;
+	margin-top: -100px;
+	line-height: 23px;
+}
+
+#topicon16{
+	margin-top:-40px;
+	margin-left:350px;
+}
+#topsongimg16
+{
+	background-image: url(unvizhigalil.jpg);
+	background-position: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+    height: 120px;
+	width: 120px;
+}
+
+.topsongs17
+{
+	width: 340px;
+	height: 130px;
+	border: 2px #FFD700;
+	margin-left: 200px;
+	margin-top: 10px;
+}
+
+.topsongs17 b 
+{
+	font-size:25px;
+}
+
+.chellamma p
+{
+  font-weight: bold;
+}
+
+.chellamma
+{
+	margin-left: 150px;
+	margin-top: -100px;
+	line-height: 23px;
+}
+
+#topicon17{
+	margin-top:-40px;
+	margin-left:350px;
+}
+
+#topsongimg17
+{
+	background-image: url(chellamma.jpg);
+	background-position: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+    height: 120px;
+	width: 120px;
+}
+
+.topsongs18
+{
+	width: 340px;
+	height: 130px;
+	border: 2px #FFD700;
+	margin-left: 700px;
+	margin-top: 60px;
+}
+
+.topsongs18 b 
+{
+	font-size:25px;
+}
+
+.aaluma p
+{
+  font-weight: bold;
+}
+
+.aaluma
+{
+	margin-left: 150px;
+	margin-top: -100px;
+	line-height: 23px;
+}
+
+#topicon18{
+	margin-top:-40px;
+	margin-left:350px;
+}
+#topsongimg18
+{
+	background-image: url(aaluma.jpg);
+	background-position: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+    height: 120px;
+	width: 120px;
+	margin-top:-50px;
+}
+
+.topsongs19
+{
+	width: 340px;
+	height: 130px;
+	border: 2px #FFD700;
+	margin-left: 200px;
+	margin-top: 10px;
+}
+
+.topsongs19 b 
+{
+	font-size:25px;
+}
+
+.twotwotwo p
+{
+  font-weight: bold;
+}
+
+.twotwotwo
+{
+	margin-left: 150px;
+	margin-top: -100px;
+	line-height: 23px;
+}
+
+#topicon19{
+	margin-top:-40px;
+	margin-left:350px;
+}
+
+#topsongimg19
+{
+	background-image: url(twotwotwo.jpg);
+	background-position: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+    height: 120px;
+	width: 120px;
+}
+
+.topsongs20
+{
+	width: 340px;
+	height: 130px;
+	border: 2px #FFD700;
+	margin-left: 700px;
+	margin-top: 10px;
+}
+
+.topsongs20 b 
+{
+	font-size:25px;
+}
+
+.osakaosaka p
+{
+  font-weight: bold;
+}
+
+.osakaosaka
+{
+	margin-left: 150px;
+	margin-top: -100px;
+	line-height: 23px;
+}
+
+#topicon20{
+	margin-top:-40px;
+	margin-left:350px;
+}
+
+#topsongimg20
+{
+	background-image: url(osakaosaka.jpg);
+	background-position: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+    height: 120px;
+	width: 120px;
+}
+
+#back2 
+{
+	background-image:url(darkpink.jpg);
+	background-repeat:repeat;
+	background-size:contain;
+	height:2500px;
+	width:1350px;
+	margin-top:-10px;
+	margin-left:-10px;
+	margin-bottom:-10px;
+}
+
+#albumsongs
+{
+  margin-top:100px;
+  padding-left:50px;
+  font-family:Comic Sans MS;  
+}
+
+.albumsongs1
+{
+	width: 340px;
+	height: 130px;
+	border: 2px #FFD700;
+	margin-left: 200px;
+	margin-top: 10px;
+}
+
+.albumsongs1 b 
+{
+	font-size:25px;
+}
+
+.yaarumillaye p
+{
+  font-weight: bold;
+}
+
+.yaarumillaye
+{
+	margin-left: 150px;
+	margin-top: -100px;
+	line-height: 23px;
+}
+
+#albumicon1{
+	margin-top:-40px;
+	margin-left:350px;
+}
+
+#albumsongimg1
+{
+	background-image: url(yaarumillaye.jpg);
+	background-position: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+    height: 120px;
+	width: 120px;
+}
+
+.albumsongs2
+{
+	width: 340px;
+	height: 130px;
+	border: 2px #FFD700;
+	margin-left: 500px;
+	margin-top: 100px;
+}
+
+.albumsongs2 b 
+{
+	font-size:25px;
+}
+
+.aagala p
+{
+  font-weight: bold;
+}
+
+.aagala
+{
+	margin-left: 150px;
+	margin-top: -100px;
+	line-height: 23px;
+}
+
+#albumicon2{
+	margin-top:-40px;
+	margin-left:350px;
+}
+
+#albumsongimg2
+{
+	background-image: url(onnumeaagala.jpg);
+	background-position: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+    height: 120px;
+	width: 120px;
+}
+
+.albumsongs3
+{
+	width: 340px;
+	height: 130px;
+	border: 2px #FFD700;
+	margin-left: -500px;
+	margin-top: 130px;
+}
+
+.albumsongs3 b 
+{
+	font-size:25px;
+}
+
+.avalukena p
+{
+  font-weight: bold;
+}
+
+.avalukena
+{
+	margin-left: 150px;
+	margin-top: -100px;
+	line-height: 23px;
+}
+
+#albumicon3{
+	margin-top:-40px;
+	margin-left:350px;
+}
+
+#albumsongimg3
+{
+	background-image: url(avalukena.jpg);
+	background-position: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+    height: 120px;
+	width: 120px;
+}
+
+.albumsongs4
+{
+	width: 340px;
+	height: 130px;
+	border: 2px #FFD700;
+	margin-left: 505px;
+	margin-top: 130px;
+}
+
+.albumsongs4 b 
+{
+	font-size:25px;
+}
+
+.julie p
+{
+  font-weight: bold;
+}
+
+.julie
+{
+	margin-left: 150px;
+	margin-top: -100px;
+	line-height: 23px;
+}
+
+#albumicon4{
+	margin-top:-40px;
+	margin-left:350px;
+}
+
+#albumsongimg4
+{
+	background-image: url(julie.jpg);
+	background-position: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+    height: 120px;
+	width: 120px;
+}
+
+.albumsongs5
+{
+	width: 340px;
+	height: 130px;
+	border: 2px #FFD700;
+	margin-left: -500px;
+	margin-top: 120px;
+}
+
+.albumsongs5 b 
+{
+	font-size:25px;
+}
+
+.chennai p
+{
+  font-weight: bold;
+}
+
+.chennai
+{
+	margin-left: 150px;
+	margin-top: -100px;
+	line-height: 23px;
+}
+
+#albumicon5{
+	margin-top:-40px;
+	margin-left:350px;
+}
+
+#albumsongimg5
+{
+	background-image: url(chennai.jpg);
+	background-position: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+    height: 120px;
+	width: 120px;
+}
+
+.albumsongs6
+{
+	width: 340px;
+	height: 130px;
+	border: 2px #FFD700;
+	margin-left: 505px;
+	margin-top: 90px;
+}
+
+.albumsongs6 b 
+{
+	font-size:25px;
+}
+
+.karmatheme p
+{
+  font-weight: bold;
+}
+
+.karmatheme
+{
+	margin-left: 150px;
+	margin-top: -100px;
+	line-height: 23px;
+}
+
+#albumicon6{
+	margin-top:-40px;
+	margin-left:350px;
+}
+#albumsongimg6
+{
+	background-image: url(karmatheme.jpg);
+	background-position: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+    height: 120px;
+	width: 120px;
+}
+
+.albumsongs7
+{
+	width: 340px;
+	height: 130px;
+	border: 2px #FFD700;
+	margin-left: -500px;
+	margin-top: 100px;
+}
+
+.albumsongs7 b 
+{
+	font-size:25px;
+}
+
+.damkutla p
+{
+  font-weight: bold;
+}
+
+.damkutla
+{
+	margin-left: 150px;
+	margin-top: -120px;
+	line-height: 23px;
+}
+
+#albumicon7{
+	margin-top:-40px;
+	margin-left:350px;
+}
+
+#albumsongimg7
+{
+	background-image: url(damkutla.jpg);
+	background-position: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+    height: 120px;
+	width: 120px;
+}
+
+.albumsongs8
+{
+	width: 340px;
+	height: 130px;
+	border: 2px #FFD700;
+	margin-left: 505px;
+	margin-top: 90px;
+}
+
+.albumsongs8 b 
+{
+	font-size:25px;
+}
+
+.oreyoru p
+{
+  font-weight: bold;
+}
+
+.oreyoru
+{
+	margin-left: 150px;
+	margin-top: -100px;
+	line-height: 23px;
+}
+
+#albumicon8{
+	margin-top:-40px;
+	margin-left:350px;
+}
+#albumsongimg8
+{
+	background-image: url(oreyoru.jpg);
+	background-position: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+    height: 120px;
+	width: 120px;
+}
+
+.albumsongs9
+{
+	width: 340px;
+	height: 130px;
+	border: 2px #FFD700;
+	margin-left: -500px;
+	margin-top: 110px;
+}
+
+.albumsongs9 b 
+{
+	font-size:25px;
+}
+
+.blaster p
+{
+  font-weight: bold;
+}
+
+.blaster
+{
+	margin-left: 150px;
+	margin-top: -100px;
+	line-height: 23px;
+}
+
+#albumicon9{
+	margin-top:-40px;
+	margin-left:350px;
+}
+
+#albumsongimg9
+{
+	background-image: url(blaster.jpg);
+	background-position: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+    height: 120px;
+	width: 120px;
+}
+
+.albumsongs10
+{
+	width: 340px;
+	height: 130px;
+	border: 2px #FFD700;
+	margin-left: 505px;
+	margin-top:80px;
+}
+
+.albumsongs10 b 
+{
+	font-size:25px;
+}
+
+.america p
+{
+  font-weight: bold;
+}
+
+.america
+{
+	margin-left: 150px;
+	margin-top: -115px;
+	line-height: 23px;
+}
+
+#albumicon10{
+	margin-top:-40px;
+	margin-left:350px;
+}
+
+#albumsongimg10
+{
+	background-image: url(goingtoamerica.jpg);
+	background-position: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+    height: 120px;
+	width: 120px;
+}
+
+#back3 
+{
+	background-image:url(whitegreenish.jpg);
+	background-repeat:repeat;
+	background-size:contain;
+	height:6000px;
+	width:1350px;
+	margin-top:-10px;
+	margin-left:-10px;
+	margin-bottom:-10px;
+}
+
+#allsongs
+{
+  margin-top:100px;
+  padding-left:50px;
+  font-family:Comic Sans MS;  
+}
+
+.allsongs1
+{
+	width: 340px;
+	height: 130px;
+	border: 2px #FFD700;
+	margin-left: 250px;
+	margin-top:50px;
+}
+
+.allsongs1 b 
+{
+	font-size:25px;
+}
+
+.america p
+{
+  font-weight: bold;
+}
+
+.america
+{
+	margin-left: 150px;
+	margin-top: -115px;
+	line-height: 23px;
+}
+
+#allsongicon1{
+	margin-top:-40px;
+	margin-left:350px;
+}
+
+#allsongimg1
+{
+	background-image: url(goingtoamerica.jpg);
+	background-position: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+    height: 120px;
+	width: 120px;
+}
+
+.allsongs2
+{
+	width: 340px;
+	height: 130px;
+	border: 2px #FFD700;
+	margin-left: 500px;
+	margin-top: 10px;
+}
+
+.allsongs2 b 
+{
+	font-size:25px;
+}
+
+.arabic p
+{
+  font-weight: bold;
+}
+
+.arabic
+{
+	margin-left: 150px;
+	margin-top: -120px;
+	line-height: 23px;
+}
+
+#allsongicon2{
+	margin-top:-40px;
+	margin-left:350px;
+}
+
+#allsongimg2
+{
+	background-image: url(arabic.jpg);
+	background-position: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+    height: 120px;
+	width: 120px;
+}
+
+.allsongs3
+{
+	width: 340px;
+	height: 130px;
+	border: 2px #FFD700;
+	margin-left: 4px;
+	margin-top: 15px;
+}
+
+.allsongs3 b 
+{
+	font-size:25px;
+}
+
+.karmatheme p
+{
+  font-weight: bold;
+}
+
+.karmatheme
+{
+	margin-left: 150px;
+	margin-top: -100px;
+	line-height: 23px;
+}
+
+#allsongicon3{
+	margin-top:-40px;
+	margin-left:350px;
+}
+
+#allsongimg3
+{
+	background-image: url(karmatheme.jpg);
+	background-position: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+    height: 120px;
+	width: 120px;
+}
+
+.allsongs4
+{
+	width: 340px;
+	height: 130px;
+	border: 2px #FFD700;
+	margin-left: 500px;
+	margin-top: 20px;
+}
+
+.allsongs4 b 
+{
+	font-size:25px;
+}
+
+.iraiva p
+{
+  font-weight: bold;
+}
+
+.iraiva
+{
+	margin-left: 150px;
+	margin-top: -100px;
+	line-height: 23px;
+}
+
+#allsongicon4{
+	margin-top:-40px;
+	margin-left:350px;
+}
+
+
+#allsongimg4
+{
+	background-image: url(iraiva.jpg);
+	background-position: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+    height: 120px;
+	width: 120px;
+}
+
+.allsongs5
+{
+	width: 340px;
+	height: 130px;
+	border: 2px #FFD700;
+	margin-left: 2px;
+	margin-top: 10px;
+}
+
+.allsongs5 b 
+{
+	font-size:25px;
+}
+
+.yaarumillaye p
+{
+  font-weight: bold;
+}
+
+.yaarumillaye
+{
+	margin-left: 150px;
+	margin-top: -100px;
+	line-height: 23px;
+}
+
+#allsongicon5{
+	margin-top:-40px;
+	margin-left:350px;
+}
+
+#allsongimg5
+{
+	background-image: url(yaarumillaye.jpg);
+	background-position: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+    height: 120px;
+	width: 120px;
+}
+
+.allsongs6
+{
+	width: 340px;
+	height: 130px;
+	border: 2px #FFD700;
+	margin-left: 500px;
+	margin-top: 470px;
+}
+
+.allsongs6 b 
+{
+	font-size:25px;
+}
+
+.idhazhin p
+{
+  font-weight: bold;
+}
+
+.idhazhin
+{
+	margin-left: 150px;
+	margin-top: -90px;
+	line-height: 23px;
+}
+
+#allsongicon6{
+	margin-top:-40px;
+	margin-left:350px;
+}
+
+#allsongimg6
+{
+	background-image: url(idhazhin.jpg);
+	background-position: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+    height: 120px;
+	width: 120px;
+	margin-top:-450px;
+}
+
+.allsongs7
+{
+	width: 340px;
+	height: 130px;
+	border: 2px #FFD700;
+	margin-left: 4px;
+	margin-top: 20px;
+}
+
+.allsongs7 b 
+{
+	font-size:25px;
+}
+
+.blaster p
+{
+  font-weight: bold;
+}
+
+.blaster
+{
+	margin-left: 150px;
+	margin-top: -100px;
+	line-height: 23px;
+}
+
+#allsongicon7{
+	margin-top:-40px;
+	margin-left:350px;
+}
+
+#allsongimg7
+{
+	background-image: url(blaster.jpg);
+	background-position: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+    height: 120px;
+	width: 120px;
+}
+
+.allsongs8
+{
+	width: 340px;
+	height: 130px;
+	border: 2px #FFD700;
+	margin-left: 500px;
+	margin-top: 230px;
+}
+
+.allsongs8 b 
+{
+	font-size:25px;
+}
+
+.dippam p
+{
+  font-weight: bold;
+}
+
+.dippam
+{
+	margin-left: 150px;
+	margin-top: -90px;
+	line-height: 23px;
+}
+
+#allsongicon8{
+	margin-top:-40px;
+	margin-left:350px;
+}
+
+#allsongimg8
+{
+	background-image: url(dippam.jpg);
+	background-position: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+    height: 120px;
+	width: 120px;
+	margin-top:-200px;
+}
+
+.allsongs9
+{
+	width: 340px;
+	height: 130px;
+	border: 2px #FFD700;
+	margin-left: 0px;
+	margin-top: 30px;
+}
+
+.allsongs9 b 
+{
+	font-size:25px;
+}
+
+.julie p
+{
+  font-weight: bold;
+}
+
+.julie
+{
+	margin-left: 150px;
+	margin-top: -100px;
+	line-height: 23px;
+}
+
+#allsongicon9{
+	margin-top:-40px;
+	margin-left:350px;
+}
+
+#allsongimg9
+{
+	background-image: url(julie.jpg);
+	background-position: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+    height: 120px;
+	width: 120px;
+}
+
+.allsongs10
+{
+	width: 340px;
+	height: 130px;
+	border: 2px #FFD700;
+	margin-left: 500px;
+	margin-top: 60px;
+}
+
+.allsongs10 b 
+{
+	font-size:25px;
+}
+
+.pathala p
+{
+  font-weight: bold;
+}
+
+.pathala
+{
+	margin-left: 150px;
+	margin-top: -90px;
+	line-height: 23px;
+}
+
+#allsongicon10{
+	margin-top:-40px;
+	margin-left:350px;
+}
+
+#allsongimg10
+{
+	background-image: url(pathala.jpg);
+	background-position: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+    height: 120px;
+	width: 120px;
+}
+
+.allsongs11
+{
+	width: 340px;
+	height: 130px;
+	border: 2px #FFD700;
+	margin-left: 0px;
+	margin-top: 20px;
+}
+
+.allsongs11 b 
+{
+	font-size:25px;
+}
+
+.oreyoru p
+{
+  font-weight: bold;
+}
+
+.oreyoru
+{
+	margin-left: 150px;
+	margin-top: -100px;
+	line-height: 23px;
+}
+
+#allsongicon11{
+	margin-top:-40px;
+	margin-left:350px;
+}
+
+#allsongimg11
+{
+	background-image: url(oreyoru.jpg);
+	background-position: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+    height: 120px;
+	width: 120px;
+}
+
+.allsongs12
+{
+	width: 340px;
+	height: 130px;
+	border: 2px #FFD700;
+	margin-left: 500px;
+	margin-top: 350px;
+}
+
+.allsongs12 b 
+{
+	font-size:25px;
+}
+
+.pizhai p
+{
+  font-weight: bold;
+}
+
+.pizhai
+{
+	margin-left: 150px;
+	margin-top: -110px;
+	line-height: 23px;
+}
+
+#allsongicon12{
+	margin-top:-40px;
+	margin-left:350px;
+}
+
+#allsongimg12
+{
+	background-image: url(pizhai.jpg);
+	background-position: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+    height: 120px;
+	width: 120px;
+	margin-top:-300px;
+}
+
+.allsongs13
+{
+	width: 340px;
+	height: 130px;
+	border: 2px #FFD700;
+	margin-left: 0px;
+	margin-top: 30px;
+}
+
+.allsongs13 b 
+{
+	font-size:25px;
+}
+
+.chennai p
+{
+  font-weight: bold;
+}
+
+.chennai
+{
+	margin-left: 150px;
+	margin-top: -100px;
+	line-height: 23px;
+}
+
+#allsongicon13{
+	margin-top:-40px;
+	margin-left:350px;
+}
+
+#allsongimg13
+{
+	background-image: url(chennai.jpg);
+	background-position: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+    height: 120px;
+	width: 120px;
+}
+
+.allsongs14
+{
+	width: 340px;
+	height: 130px;
+	border: 2px #FFD700;
+	margin-left: 500px;
+	margin-top: 10px;
+}
+
+.allsongs14 b 
+{
+	font-size:25px;
+}
+
+.selfie p
+{
+  font-weight: bold;
+}
+
+.selfie
+{
+	margin-left: 150px;
+	margin-top: -90px;
+	line-height: 23px;
+}
+
+#allsongicon14{
+	margin-top:-40px;
+	margin-left:350px;
+}
+
+#allsongimg14
+{
+	background-image: url(selfie.jpg);
+	background-position: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+    height: 120px;
+	width: 120px;
+}
+
+.allsongs15
+{
+	width: 340px;
+	height: 130px;
+	border: 2px #FFD700;
+	margin-left: 0px;
+	margin-top: 50px;
+}
+
+.allsongs15 b 
+{
+	font-size:25px;
+}
+
+.aagala p
+{
+  font-weight: bold;
+}
+
+.aagala
+{
+	margin-left: 150px;
+	margin-top: -100px;
+	line-height: 23px;
+}
+
+#allsongicon15{
+	margin-top:-40px;
+	margin-left:350px;
+}
+
+#allsongimg15
+{
+	background-image: url(onnumeaagala.jpg);
+	background-position: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+    height: 120px;
+	width: 120px;
+}
+
+.allsongs16
+{
+	width: 340px;
+	height: 130px;
+	border: 2px #FFD700;
+	margin-left: 500px;
+	margin-top: 100px;
+}
+
+.allsongs16 b 
+{
+	font-size:25px;
+}
+
+.aaluma p
+{
+  font-weight: bold;
+}
+
+.aaluma
+{
+	margin-left: 150px;
+	margin-top: -100px;
+	line-height: 23px;
+}
+
+#allsongicon16{
+	margin-top:-40px;
+	margin-left:350px;
+}
+
+#allsongimg16
+{
+	background-image: url(aaluma.jpg);
+	background-position: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+    height: 120px;
+	width: 120px;
+	margin-top:-50px;
+}
+
+.allsongs17
+{
+	width: 340px;
+	height: 130px;
+	border: 2px #FFD700;
+	margin-left: 0px;
+	margin-top: 50px;
+}
+
+.allsongs17 b 
+{
+	font-size:25px;
+}
+
+.damkutla p
+{
+  font-weight: bold;
+}
+
+.damkutla
+{
+	margin-left: 150px;
+	margin-top: -120px;
+	line-height: 23px;
+}
+
+#allsongicon17{
+	margin-top:-40px;
+	margin-left:350px;
+}
+
+#allsongimg17
+{
+	background-image: url(damkutla.jpg);
+	background-position: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+    height: 120px;
+	width: 120px;
+}
+
+.allsongs18
+{
+	width: 340px;
+	height: 130px;
+	border: 2px #FFD700;
+	margin-left: 500px;
+	margin-top: 30px;
+}
+
+.allsongs18 b 
+{
+	font-size:25px;
+}
+
+.bae p
+{
+  font-weight: bold;
+}
+
+.bae
+{
+	margin-left: 150px;
+	margin-top: -90px;
+	line-height: 23px;
+}
+
+#allsongicon18{
+	margin-top:-40px;
+	margin-left:350px;
+}
+
+#allsongimg18
+{
+	background-image: url(bae.jpg);
+	background-position: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+    height: 120px;
+	width: 120px;
+}
+
+.allsongs19
+{
+	width: 340px;
+	height: 130px;
+	border: 2px #FFD700;
+	margin-left: 0px;
+	margin-top: 30px;
+}
+
+.allsongs19 b 
+{
+	font-size:25px;
+}
+
+.avalukena p
+{
+  font-weight: bold;
+}
+
+.avalukena
+{
+	margin-left: 150px;
+	margin-top: -100px;
+	line-height: 23px;
+}
+
+#allsongicon19{
+	margin-top:-40px;
+	margin-left:350px;
+}
+
+#allsongimg19
+{
+	background-image: url(avalukena.jpg);
+	background-position: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+    height: 120px;
+	width: 120px;
+}
+
+.allsongs20
+{
+	width: 340px;
+	height: 130px;
+	border: 2px #FFD700;
+	margin-left: 500px;
+	margin-top: 40px;
+}
+
+.allsongs20 b 
+{
+	font-size:25px;
+}
+
+.jalabula p
+{
+  font-weight: bold;
+}
+
+.jalabula
+{
+	margin-left: 150px;
+	margin-top: -90px;
+	line-height: 23px;
+}
+
+#allsongicon20{
+	margin-top:-40px;
+	margin-left:350px;
+}
+
+#allsongimg20
+{
+	background-image: url(jalabula.jpg);
+	background-position: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+    height: 120px;
+	width: 120px;
+}
+
+.allsongs21
+{
+	width: 340px;
+	height: 130px;
+	border: 2px #FFD700;
+	margin-left: 0px;
+	margin-top: 30px;
+}
+
+.allsongs21 b 
+{
+	font-size:25px;
+}
+
+.ohpenne p
+{
+  font-weight: bold;
+}
+
+.ohpenne
+{
+	margin-left: 150px;
+	margin-top: -90px;
+	line-height: 23px;
+}
+
+#allsongicon21{
+	margin-top:-40px;
+	margin-left:350px;
+}
+
+#allsongimg21
+{
+	background-image: url(ohpenne.jpg);
+	background-position: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+    height: 120px;
+	width: 120px;
+}
+
+.allsongs22
+{
+	width: 340px;
+	height: 130px;
+	border: 2px #FFD700;
+	margin-left: 500px;
+	margin-top: 10px;
+}
+
+.allsongs22 b 
+{
+	font-size:25px;
+}
+
+.thanga p
+{
+  font-weight: bold;
+}
+
+.thanga
+{
+	margin-left: 150px;
+	margin-top: -90px;
+	line-height: 23px;
+}
+
+#allsongicon22{
+	margin-top:-40px;
+	margin-left:350px;
+}
+
+#allsongimg22
+{
+	background-image: url(thangamey.jpg);
+	background-position: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+    height: 120px;
+	width: 120px;
+}
+
+.allsongs23
+{
+	width: 340px;
+	height: 130px;
+	border: 2px #FFD700;
+	margin-left: 0px;
+	margin-top: 10px;
+}
+
+.allsongs23 b 
+{
+	font-size:25px;
+}
+
+.unvizhigalil p
+{
+  font-weight: bold;
+}
+
+.unvizhigalil
+{
+	margin-left: 150px;
+	margin-top: -100px;
+	line-height: 23px;
+}
+
+#allsongicon23{
+	margin-top:-40px;
+	margin-left:350px;
+}
+
+#allsongimg23
+{
+	background-image: url(unvizhigalil.jpg);
+	background-position: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+    height: 120px;
+	width: 120px;
+}
+
+.allsongs24
+{
+	width: 340px;
+	height: 130px;
+	border: 2px #FFD700;
+	margin-left: 500px;
+	margin-top: 10px;
+}
+
+.allsongs24 b 
+{
+	font-size:25px;
+}
+
+.kankattudhe p
+{
+  font-weight: bold;
+}
+
+.kankattudhe
+{
+	margin-left: 150px;
+	margin-top: -120px;
+	line-height: 23px;
+}
+
+#allsongicon24{
+	margin-top:-40px;
+	margin-left:350px;
+}
+
+#allsongimg24
+{
+	background-image: url(kakkisattai.jpg);
+	background-position: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+    height: 120px;
+	width: 120px;
+}
+
+.allsongs25
+{
+	width: 340px;
+	height: 130px;
+	border: 2px #FFD700;
+	margin-left:0px;
+	margin-top:10px;
+}
+
+.allsongs25 b 
+{
+	font-size:25px;
+}
+
+.kanave p
+{
+  font-weight: bold;
+}
+
+.kanave
+{
+	margin-left: 150px;
+	margin-top: -90px;
+	line-height: 23px;
+}
+
+#allsongicon25{
+	margin-top:-40px;
+	margin-left:350px;
+}
+
+#allsongimg25
+{
+	background-image: url(kanave.jpg);
+	background-position: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+    height: 120px;
+	width: 120px;
+}
+
+.allsongs26
+{
+	width: 340px;
+	height: 130px;
+	border: 2px #FFD700;
+	margin-left: 500px;
+	margin-top: 10px;
+}
+
+.allsongs26 b 
+{
+	font-size:25px;
+}
+
+.osakaosaka p
+{
+  font-weight: bold;
+}
+
+.osakaosaka
+{
+	margin-left: 150px;
+	margin-top: -100px;
+	line-height: 23px;
+}
+
+#allsongicon26{
+	margin-top:-40px;
+	margin-left:350px;
+}
+#allsongimg26
+{
+	background-image: url(osakaosaka.jpg);
+	background-position: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+    height: 120px;
+	width: 120px;
+}
+
+.allsongs27
+{
+	width: 340px;
+	height: 130px;
+	border: 2px #FFD700;
+	margin-left: 0px;
+	margin-top: 10px;
+}
+
+.allsongs27 b 
+{
+	font-size:25px;
+}
+
+.anthakanna p
+{
+  font-weight: bold;
+}
+
+.anthakanna
+{
+	margin-left: 150px;
+	margin-top: -100px;
+	line-height: 23px;
+}
+
+#allsongicon27{
+	margin-top:-40px;
+	margin-left:350px;
+}
+
+#allsongimg27
+{
+	background-image: url(anthakanna.jpg);
+	background-position: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+    height: 120px;
+	width: 120px;
+}
+
+.allsongs28
+{
+	width: 340px;
+	height: 130px;
+	border: 2px #FFD700;
+	margin-left: 500px;
+	margin-top: 10px;
+}
+
+.allsongs28 b 
+{
+	font-size:25px;
+}
+
+.twotwotwo p
+{
+  font-weight: bold;
+}
+
+.twotwotwo
+{
+	margin-left: 150px;
+	margin-top: -100px;
+	line-height: 23px;
+}
+
+#allsongicon28{
+	margin-top:-40px;
+	margin-left:350px;
+}
+#allsongimg28
+{
+	background-image: url(twotwotwo.jpg);
+	background-position: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+    height: 120px;
+	width: 120px;
+}
+
+.allsongs29
+{
+	width: 340px;
+	height: 130px;
+	border: 2px #FFD700;
+	margin-left: 0px;
+	margin-top: 260px;
+}
+
+.allsongs29 b 
+{
+	font-size:25px;
+}
+
+.maranamass p
+{
+  font-weight: bold;
+}
+
+.maranamass
+{
+	margin-left: 150px;
+	margin-top: -90px;
+	line-height: 23px;
+}
+
+#allsongicon29{
+	margin-top:-40px;
+	margin-left:350px;
+}
+
+#allsongimg29
+{
+	background-image: url(maranamass.jpg);
+	background-position: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+    height: 120px;
+	width: 120px;
+	margin-top:-250px;
+}
+
+.allsongs30
+{
+	width: 340px;
+	height: 130px;
+	border: 2px #FFD700;
+	margin-left: 500px;
+	margin-top: 10px;
+}
+
+.allsongs30 b 
+{
+	font-size:25px;
+}
+
+.chellamma p
+{
+  font-weight: bold;
+}
+
+.chellamma
+{
+	margin-left: 150px;
+	margin-top: -100px;
+	line-height: 23px;
+}
+
+#allsongicon30{
+	margin-top:-40px;
+	margin-left:350px;
+}
+
+#allsongimg30
+{
+	background-image: url(chellamma.jpg);
+	background-position: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+    height: 120px;
+	width: 120px;
+}
+
+.animate__animate
+{
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: bounce; 
+  animation-duration: 2s; 
+}
+
+@keyframes mymove3
+{
+	from{top:0px;}
+	to{top:100px;}
+}
+
+.input1{
+	display:none;
+}
+
+.img1{
+	width:100%;
+	height:100%;
+}
+.book
+{
+	display:flex;
+}
+
+#cover{
+	width:250px;
+	height:400px;
+}
+.flip-book{
+	width:240px;
+	height:400px;
+	position:relative;
+	perspective:1500px;
+}
+
+.flip{
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	transform-origin:left;
+	transform-style:preserve-3d;
+	transform:rotateY(0deg);
+	transition:.5s;
+	color:#000;
+}
+
+.about6{
+	background-image:url("anirudh2.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	margin-top:-10px;
+	margin-left:-10px;
+	margin-right:-6px;
+	margin-bottom:-10px;
+}
+.about4{
+	margin-top:100px;
+	margin-left:400px;
+	height:600px;
+	width:600px;
+}
+.p1{
+	font-size:14px;
+	line-height:24px;
+}
+.front{
+	position:absolute;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	background-color:#fff;
+	box-sizing:border-box;
+	padding:0 13px;
+	box-shadow:inset 20px 0 50px rgba(0,0,0,0.5) 0 2px 5px rgba(0,0,0.5);
+}
+
+.back{
+	position:absolute;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	z-index:99;
+	transform:rotateY(180deg);
+	backface-visibility:hidden;
+	background-color:#000;
+}
+.next-btn{
+	position:absoulte;
+	bottom:13px;
+	right:13px;
+	cursor:pointer;
+	color:#000;
+}
+.back-btn{
+	position:absolute;
+	bottom:13px;
+	right:13px;
+	cursor:pointer;
+	color:#fff;
+}
+
+#p1{
+	z-index:3;
+}
+
+#p2{
+	z-index:2;
+}
+
+#p3{
+	z-index:1;
+}
+
+#c1:checked ~ .flip-book #p1{
+	transform:rotateY(-180deg);
+	z-index:1;
+}
+
+#c2:checked ~ .flip-book #p2{
+	transform:rotateY(-180deg);
+	z-index:2;
+}
+
+#c3:checked ~ .flip-book #p3{
+	transform:rotateY(-180deg);
+	z-index:3;
+}
+
+
+
+
+
